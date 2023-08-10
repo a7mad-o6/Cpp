@@ -6,7 +6,7 @@ using namespace std;
 float balance = 1000;
 int deposit = 0;
 int withdraw = 0;
-int state_password = 0;
+int state_password = 1234;
 int password;
 int choice;
 int trying=1;
