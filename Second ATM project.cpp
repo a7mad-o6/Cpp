@@ -1,7 +1,13 @@
 #include <iostream>
-using namespace std;
+using namespace std;//can't live without it
 
-//$$$$$$$$$$$$ This code was written on android device $$$$$$$$$$$$//
+
+//$$$$$$$$$$$$ THIS CODE WAS WRITTEN ON ANDROID DEVICE $$$$$$$$$$$$\\
+
+// I used "acode" and "Coding C++" for this code
+//It's not that hard coding on android but still weird :|
+
+
 
 //************ Variables ***********//
 float balance = 1000;
@@ -55,7 +61,7 @@ bool language() {
         
         // Arabic language 
         else if (language_choice == 2) {
-          cout<<"Arabic language is not available at the moment please try again later, or chose another language from (select language) menu : ";
+          cout<<"Arabic language is not available at the moment please try again later, or choose another language from (select language) menu : ";
         }
         
         
@@ -193,5 +199,5 @@ int main (){
   
   //I don't know if the PIN should be first :)
 
-  return 0;
+  return 0; //Finally 
 }
