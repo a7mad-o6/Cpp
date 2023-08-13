@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//$$$$$$$$$$$$ This code was written on android device $$$$$$$$$$$$//
 
 //************ Variables ***********//
 float balance = 1000;
@@ -38,7 +39,7 @@ bool language() {
         cin >> language_choice;
         cout<<endl;
         //checking if it's int
-        if (cin.fail()) { //this if (cin.fail()) from chatGPT ,
+        if (cin.fail()) { //this if condition from chatGPT ,
         //to handle errors if the input was string
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
@@ -189,7 +190,8 @@ int main (){
   }             
   show ();
   process ();
-//I don't know if the PIN should be first :)
+  
+  //I don't know if the PIN should be first :)
 
   return 0;
 }
